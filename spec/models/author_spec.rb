@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Author, type: :model do
   it "has a name" do
-    @author = Author.new
+    @author = Author.new 
     @author.name = "Joe Burgess"
     expect(@author.name).to eq("Joe Burgess")
   end

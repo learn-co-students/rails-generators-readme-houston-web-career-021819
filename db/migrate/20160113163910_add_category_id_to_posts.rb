@@ -3,3 +3,5 @@ class AddCategoryIdToPosts < ActiveRecord::Migration
     add_column :posts, :category_id, :integer
   end
 end
+
+ 
